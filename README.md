@@ -10,6 +10,8 @@ The following variables needs to be present in the app settings:
 Create a bot to generate a token. 
 
 ## Deployment script
+Add the follwowing to the custom deployment script.
+
 ```batch
 IF NOT EXIST "%DEPLOYMENT_SOURCE%\node_modules\@slack\client\index.js" (
   echo Download and install slack
