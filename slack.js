@@ -3,15 +3,12 @@ process.argv.forEach(function (val, index, array) {
     if (index >= 2 && index <= 4) {
         switch (index) {
             case 2:
-                // room
                 room = val;
                 break;
             case 3:
-                // roomToken
                 token = val;
                 break;
             case 4:
-                // message
                 message = val;
                 break;
         }
